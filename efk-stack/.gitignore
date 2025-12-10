@@ -1,0 +1,7 @@
+# Elasticsearch data
+elasticsearch/
+esdata/
+
+# Log files
+logs/
+*.log

@@ -1,0 +1,13 @@
+# Elasticsearch data
+esdata/
+
+# Log files
+logs/
+app/logs/
+*.log
+
+# Build artifacts
+app/*.jar
+
+# Backup files
+*~

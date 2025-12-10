@@ -1,0 +1,13 @@
+setup.kibana:
+  host: "http://kibana:5601"
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+
+metricbeat.modules:
+- module: system
+  period: 10s
+
+- module: docker
+  period: 10s
+  hosts: ["unix:///var/run/docker.sock"]
